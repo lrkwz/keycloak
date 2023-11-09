@@ -1,0 +1,1364 @@
+repo_name: lrkwz/keycloak
+report_id: 8a8a81bd5e15a040bff5ed658efafeed
+repo_type: Public
+timestamp: '2023-11-09T12:16:18+00:00'
+requested_by: edewit
+provider: github
+branch: main
+detected_tools_count: 107
+tools:
+- name: Asciidoctor
+  description: An open source, pure Ruby processor for converting AsciiDoc documents
+    or strings into HTML and other formats
+  website_url: https://asciidoctor.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2924/gvQpykZd_400x400.jpg
+  detection_source: docs/documentation/tests/pom.xml
+  last_updated_by: stianst
+  last_updated_on: 2019-11-06 09:57:00.000000000 Z
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source: Repo Metadata
+- name: Groovy
+  description: A multi-faceted language for the Java platform
+  website_url: https://groovy-lang.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/997/default_7ff5fcd857f42ad25149f659693d8930bffddf14.png
+  detection_source: Repo Metadata
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source: Repo Metadata
+- name: Mustache
+  description: Logic-less templates
+  website_url: http://mustache.github.io/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/1142/197655.png
+  detection_source: Repo Metadata
+- name: SQL
+  description: It is a domain-specific language used in programming
+  website_url: https://en.wikipedia.org/wiki/SQL
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
+  detection_source: quarkus/tests/integration/src/main/resources/database/scripts/init-postgres.sql
+  last_updated_by: Dominik Guhr
+  last_updated_on: 2022-07-28 11:00:11.000000000 Z
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source: Repo Metadata
+- name: Apache FreeMarker
+  description: A free Java-based template engine
+  website_url: http://freemarker.incubator.apache.org/index.html
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Java Tools
+  image_url: https://img.stackshare.io/service/4456/ymCgaIO0_400x400.jpg
+  detection_source: Repo Metadata
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source: themes/src/main/resources/theme/keycloak.v2/account/src/package.json
+  last_updated_by: Jon Koops
+  last_updated_on: 2022-08-25 09:03:07.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 16.13.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: themes/src/main/resources/theme/keycloak.v2/account/src/package-lock.json
+  detection_source: themes/src/main/resources/theme/keycloak.v2/account/src/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-10-19 09:08:09.000000000 Z
+- name: React Router
+  description: A complete routing solution for React.js
+  website_url: https://github.com/rackt/react-router
+  version: 4.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: JavaScript Framework Components
+  image_url: https://img.stackshare.io/service/3350/8261421.png
+  detection_source_url: themes/src/main/resources/theme/keycloak.v2/account/src/package-lock.json
+  detection_source: themes/src/main/resources/theme/keycloak.v2/account/src/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-10-19 09:08:09.000000000 Z
+- name: ServiceStack
+  description: 'A configuration free, code-first, light-weight framework '
+  website_url: https://servicestack.net/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/2773/JuTVEkWX_400x400.jpg
+  detection_source: js/apps/keycloak-server/package.json
+  last_updated_by: Jon Koops
+  last_updated_on: 2022-11-15 15:42:38.000000000 Z
+- name: Spring Framework
+  description: An application framework and inversion of control container for the
+    Java platform
+  website_url: https://spring.io/projects/spring-framework
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/2006/spring-framework-project-logo.png
+  detection_source: testsuite/integration-arquillian/test-apps/spring-boot-adapter-app/pom.xml
+  last_updated_by: Martin Bartoš
+  last_updated_on: 2022-02-02 09:47:15.000000000 Z
+- name: guava
+  description: Google Core Libraries for Java 6+
+  website_url: https://github.com/google/guava
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Java Tools
+  image_url: https://img.stackshare.io/service/2970/wBjKn0ol.png
+  detection_source: testsuite/integration-arquillian/tests/base/pom.xml
+  last_updated_by: Pedro Igor
+  last_updated_on: 2020-05-18 22:48:13.000000000 Z
+- name: jQuery
+  description: The Write Less, Do More, JavaScript Library.
+  website_url: http://jquery.com/
+  version: 3.7.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1021/lxEKmMnB_400x400.jpg
+  detection_source_url: themes/src/main/resources/theme/keycloak/common/resources/package-lock.json
+  detection_source: themes/src/main/resources/theme/keycloak/common/resources/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-08-29 10:51:17.000000000 Z
+- name: H2 Database
+  description: A relational database management system written in Java
+  website_url: http://www.h2database.com/
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/3105/h2-logo_square_400x400.png
+  detection_source: testsuite/utils/pom.xml
+  last_updated_by: Hynek Mlnarik
+  last_updated_on: 2020-10-30 11:32:15.000000000 Z
+- name: Liquibase
+  description: Easily track, version &amp; deploy database changes
+  website_url: https://www.liquibase.com
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Database Tools
+  image_url: https://img.stackshare.io/service/1398/y1As8_s5_400x400.jpg
+  detection_source: quarkus/runtime/pom.xml
+  last_updated_by: Stian Thorgersen
+  last_updated_on: 2015-07-17 11:45:43.000000000 Z
+- name: MSSQL
+  description: It is an enterprise-level database system that is very popular for
+    Windows web servers
+  website_url: https://www.microsoft.com/en-us/sql-server
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/2445/ZKsJsucq_400x400.jpg
+  detection_source: testsuite/utils/pom.xml
+  last_updated_by: Pedro Igor
+  last_updated_on: 2021-11-23 14:45:46.000000000 Z
+- name: MariaDB
+  description: An enhanced, drop-in replacement for MySQL
+  website_url: https://mariadb.com/
+  license: GPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1615/mariadb-logo-400x400.png
+  detection_source: testsuite/utils/pom.xml
+  last_updated_by: Peter Zaoral
+  last_updated_on: 2022-11-29 23:04:56.000000000 Z
+- name: Microsoft SQL Server
+  description: A relational database management system developed by Microsoft
+  website_url: http://microsoft.com/sqlserver
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1027/sql_server.png
+  detection_source: testsuite/utils/pom.xml
+  last_updated_by: Alexander Schwartz
+  last_updated_on: 2023-09-05 13:38:19.000000000 Z
+- name: MySQL
+  description: The world's most popular open source database
+  website_url: http://www.mysql.com
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1025/logo-mysql-170x170.png
+  detection_source: testsuite/utils/pom.xml
+  last_updated_by: Stian Thorgersen
+  last_updated_on: 2017-07-14 05:01:54.000000000 Z
+- name: PostgreSQL
+  description: A powerful, open source object-relational database system
+  website_url: http://www.postgresql.org/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1028/ASOhU5xJ.png
+  detection_source: testsuite/utils/pom.xml
+  last_updated_by: Peter Zaoral
+  last_updated_on: 2022-11-29 23:04:56.000000000 Z
+- name: Babel
+  description: Use next generation JavaScript, today.
+  website_url: http://babeljs.io/
+  version: 7.18.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JavaScript Compilers
+  image_url: https://img.stackshare.io/service/2739/-1wfGjNw.png
+  detection_source_url: themes/src/main/resources/theme/keycloak.v2/account/src/package-lock.json
+  detection_source: themes/src/main/resources/theme/keycloak.v2/account/src/package.json
+  last_updated_by: Stan Silvert
+  last_updated_on: 2020-05-08 00:54:52.000000000 Z
+- name: Chai
+  description: A BDD / TDD assertion library
+  website_url: http://chaijs.com/
+  version: 4.3.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/1725/chai.png
+  detection_source_url: js/libs/keycloak-admin-client/package.json
+  detection_source: js/libs/keycloak-admin-client/package.json
+  last_updated_by: Jon Koops
+  last_updated_on: 2023-02-03 10:45:11.000000000 Z
+- name: Cypress
+  description: When testing is easy, developers build better things faster and with
+    confidence.
+  website_url: https://www.cypress.io/
+  version: 13.3.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/9231/default_66c5c1a197dcd0232e41e4ab6299d119b4e165b3.png
+  detection_source_url: js/apps/admin-ui/package.json
+  detection_source: js/apps/admin-ui/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-10-19 07:27:52.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source: Repo Metadata
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source: themes/src/main/resources/theme/keycloak.v2/account/src/package.json
+  last_updated_by: Jon Koops
+  last_updated_on: 2023-02-03 10:45:11.000000000 Z
+- name: Eclipse
+  description: IDE for Java EE Developers
+  website_url: https://www.eclipse.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Integrated Development Environment
+  image_url: https://img.stackshare.io/service/1446/8cyY6D_m.png
+  detection_source: adapters/oidc/spring-boot2/pom.xml
+  last_updated_by: Ryan Dawson
+  last_updated_on: 2017-06-30 13:31:30.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source: ".github/workflows/trivy-analysis.yml"
+  last_updated_by: Miquel Simon
+  last_updated_on: 2023-10-16 11:41:13.000000000 Z
+- name: GlassFish
+  description: The Open Source Java EE Reference Implementation
+  website_url: https://glassfish.java.net
+  open_source: false
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Web Servers
+  image_url: https://img.stackshare.io/service/3628/515GX-Cc_400x400.jpg
+  detection_source: testsuite/integration-arquillian/tests/other/springboot-tests/pom.xml
+  last_updated_by: Pavel Drozd
+  last_updated_on: 2023-05-22 11:26:17.000000000 Z
+- name: JBoss
+  description: An open source Java EE-based application server
+  website_url: https://developers.redhat.com/products/eap
+  open_source: false
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Web Servers
+  image_url: https://img.stackshare.io/service/2188/unnamed.jpg
+  detection_source: util/embedded-ldap/pom.xml
+  last_updated_by: Stian Thorgersen
+  last_updated_on: 2015-07-17 11:45:43.000000000 Z
+- name: JUnit
+  description: A programmer-oriented testing framework for Java
+  website_url: http://junit.org/
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2020/874086.png
+  detection_source: testsuite/model/pom.xml
+  last_updated_by: Stian Thorgersen
+  last_updated_on: 2015-07-17 11:45:43.000000000 Z
+- name: Log4j
+  description: A Java-based logging utility
+  website_url: https://logging.apache.org/log4j/2.x/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Logging Tools
+  image_url: https://img.stackshare.io/service/2804/Coralogix-log4j-integration.jpg
+  detection_source: util/embedded-ldap/pom.xml
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-01-12 11:08:09.000000000 Z
+- name: Mocha
+  description: Simple, flexible, fun javascript test framework for node.js &amp; the
+    browser
+  website_url: http://mochajs.org/
+  version: 10.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/832/mocha.png
+  detection_source_url: js/libs/keycloak-admin-client/package.json
+  detection_source: js/libs/keycloak-admin-client/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-10-19 07:29:25.000000000 Z
+- name: Mockito
+  description: Tasty mocking framework for unit tests in Java
+  website_url: https://site.mockito.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2021/4y634TJm_400x400.jpg
+  detection_source: operator/pom.xml
+  last_updated_by: Ryan Dawson
+  last_updated_on: 2017-06-30 13:31:30.000000000 Z
+- name: Octokit
+  description: GitHub API Client Library for .NET
+  website_url: https://github.com/octokit/octokit.net
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Tools for GitHub
+  image_url: https://img.stackshare.io/service/9827/octokit-dotnet_2.png
+  detection_source: js/apps/keycloak-server/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-09-26 13:55:24.000000000 Z
+- name: Prettier
+  description: 'Prettier is an opinionated code formatter. '
+  website_url: https://prettier.io/
+  version: 3.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
+  detection_source_url: js/package.json
+  detection_source: js/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-10-14 09:52:44.000000000 Z
+- name: SLF4J
+  description: Simple logging facade for Java
+  website_url: http://slf4j.org/
+  open_source: false
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Log Management
+  image_url: https://img.stackshare.io/service/2805/05518ecaa42841e834421e9d6987b04f_400x400.png
+  detection_source: util/embedded-ldap/pom.xml
+  last_updated_by: Scott Rossillo
+  last_updated_on: 2015-04-21 16:18:56.000000000 Z
+- name: Snyk
+  description: Automatically find &amp; fix vulnerabilities in your code, containers,
+    Kubernetes, and Terraform
+  website_url: https://snyk.io/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/5326/6p1SNAJu.jpg
+  detection_source: ".github/snyk/.snyk"
+  last_updated_by: Bruno Oliveira da Silva
+  last_updated_on: 2022-04-11 19:17:05.000000000 Z
+- name: Wildfly
+  description: A Java EE8 Application Server
+  website_url: https://www.wildfly.org/
+  open_source: false
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Web Servers
+  image_url: https://img.stackshare.io/service/3411/R_inOTNM_400x400.png
+  detection_source: distribution/feature-packs/adapter-feature-pack/pom.xml
+  last_updated_by: Peter Skopek
+  last_updated_on: 2023-09-05 21:19:39.000000000 Z
+- name: jsdom
+  description: A JavaScript implementation of the WHATWG DOM and HTML standards, for
+    use with node.js
+  website_url: https://github.com/jsdom/jsdom
+  version: 22.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Headless Browsers
+  image_url: https://img.stackshare.io/service/7054/preview.jpeg
+  detection_source_url: js/apps/admin-ui/package.json
+  detection_source: js/apps/admin-ui/package.json
+  last_updated_by: Jon Koops
+  last_updated_on: 2023-06-06 16:35:06.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source: themes/src/main/resources/theme/keycloak/common/resources/package.json
+  last_updated_by: stianst
+  last_updated_on: 2018-01-26 08:15:21.000000000 Z
+- name: rollup
+  description: The next-generation JavaScript module bundler
+  website_url: http://rollupjs.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/4423/zE8RTn9E_400x400.jpg
+  detection_source: js/libs/keycloak-js/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-10-17 10:01:28.000000000 Z
+- name: Apache Camel
+  description: A versatile open source integration framework
+  website_url: https://camel.apache.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Platform as a Service
+  image_url: https://img.stackshare.io/service/3276/xWt1RFo6_400x400.jpg
+  detection_source: testsuite/integration-arquillian/test-apps/spring-boot-adapter-app/src/main/resources/application.properties
+  last_updated_by: Václav Muzikář
+  last_updated_on: 2022-01-11 13:36:43.000000000 Z
+- name: Dataform
+  description: A framework for managing SQL based data operations.
+  website_url: https://dataform.co/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Analytics
+  sub_category: Business Intelligence
+  image_url: https://img.stackshare.io/service/11236/Group_22__3_.png
+  detection_source: quarkus/runtime/pom.xml
+  last_updated_by: Pedro Igor
+  last_updated_on: 2020-05-18 22:48:13.000000000 Z
+- name: Infinispan
+  description: 'Infinispan: open source data grids'
+  website_url: http://infinispan.org/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/6707/infinispan_iconupdate_64x_normal.png
+  detection_source: quarkus/runtime/pom.xml
+  last_updated_by: Martin Bartoš
+  last_updated_on: 2023-01-04 18:37:28.000000000 Z
+- name: PonyDebugger
+  description: Remote network and data debugging for your native iOS app using Chrome
+    Developer Tools
+  website_url: https://github.com/square/PonyDebugger
+  open_source: true
+  hosted_saas: false
+  category: Mobile
+  sub_category: Mobile Runtime Inspector
+  image_url: https://img.stackshare.io/service/729/Logo.png
+  detection_source: themes/src/main/resources/theme/keycloak/common/resources/package.json
+  last_updated_by: Gregor Tudan
+  last_updated_on: 2018-06-09 21:26:16.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source: Repo Metadata
+- name: Ubuntu
+  description: The leading OS for PC, tablet, phone and cloud
+  website_url: http://www.ubuntu.com/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/3511/cof_orange_hex.jpg
+  detection_source: testsuite/integration-arquillian/tests/other/mod_auth_mellon/docker2/Dockerfile
+  last_updated_by: mhajas
+  last_updated_on: 2016-01-28 08:54:05.000000000 Z
+- name: XSLT
+  description: The official Twitter account for the sum of all knowledge, Wikipedia.
+    Overseen by @jeffelder.
+  website_url: https://en.wikipedia.org/wiki/XSLT
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/4253/nZXfdUQq_normal.jpg
+  detection_source: Repo Metadata
+- name: husky
+  website_url: https://github.com/typicode/husky
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/9527/5502029.jpeg
+  detection_source: js/package.json
+  last_updated_by: Jon Koops
+  last_updated_on: 2023-02-03 10:45:11.000000000 Z
+- name: i18next
+  description: Internationalization-framework written in and for JavaScript
+  website_url: https://www.i18next.com/
+  open_source: false
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Translation Service
+  image_url: https://img.stackshare.io/service/4747/default_82286a88bf01c80539ebd1d6dbea1b25df8af16d.png
+  detection_source: js/apps/admin-ui/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-10-19 07:28:33.000000000 Z
+- name: lint-staged
+  website_url: https://github.com/okonet/lint-staged
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/10577/11071.jpeg
+  detection_source: js/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-10-17 10:41:57.000000000 Z
+- name: "@babel/cli"
+  description: Babel command line
+  package_url: https://www.npmjs.com/@babel/cli
+  version: 7.18.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15848/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: themes/src/main/resources/theme/keycloak.v2/account/src/package-lock.json
+  detection_source: themes/src/main/resources/theme/keycloak.v2/account/src/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-07-18 12:37:56.000000000 Z
+- name: "@babel/core"
+  description: Babel compiler core
+  package_url: https://www.npmjs.com/@babel/core
+  version: 7.18.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15810/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source_url: themes/src/main/resources/theme/keycloak.v2/account/src/package-lock.json
+  detection_source: themes/src/main/resources/theme/keycloak.v2/account/src/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-07-18 12:37:56.000000000 Z
+- name: "@babel/plugin-proposal-class-properties"
+  description: This plugin transforms static class properties as well as properties
+    declared with the property initializer syntax
+  package_url: https://www.npmjs.com/@babel/plugin-proposal-class-properties
+  version: 7.18.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15903/default_3af1504b6f77c55205ba630fe08c472f43b95f6e.png
+  detection_source_url: themes/src/main/resources/theme/keycloak.v2/account/src/package-lock.json
+  detection_source: themes/src/main/resources/theme/keycloak.v2/account/src/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-07-26 13:47:07.000000000 Z
+- name: "@babel/preset-env"
+  description: A Babel preset for each environment
+  package_url: https://www.npmjs.com/@babel/preset-env
+  version: 7.18.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15819/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
+  detection_source_url: themes/src/main/resources/theme/keycloak.v2/account/src/package-lock.json
+  detection_source: themes/src/main/resources/theme/keycloak.v2/account/src/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-07-18 12:37:56.000000000 Z
+- name: "@babel/preset-react"
+  description: Babel preset for all React plugins
+  package_url: https://www.npmjs.com/@babel/preset-react
+  version: 7.18.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15890/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: themes/src/main/resources/theme/keycloak.v2/account/src/package-lock.json
+  detection_source: themes/src/main/resources/theme/keycloak.v2/account/src/package.json
+  last_updated_by: Jon Koops
+  last_updated_on: 2022-07-18 13:39:14.000000000 Z
+- name: "@babel/preset-typescript"
+  description: Babel preset for TypeScript
+  package_url: https://www.npmjs.com/@babel/preset-typescript
+  version: 7.18.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16084/default_d4e765f8a43dcfd232c8b9ee9732058bc27c727a.png
+  detection_source_url: themes/src/main/resources/theme/keycloak.v2/account/src/package-lock.json
+  detection_source: themes/src/main/resources/theme/keycloak.v2/account/src/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-07-26 13:47:07.000000000 Z
+- name: "@octokit/rest"
+  description: GitHub REST API client for Node.js
+  package_url: https://www.npmjs.com/@octokit/rest
+  version: 20.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16999/default_43f23668e39c9b3381720c9c76540776b8a49167.png
+  detection_source_url: js/apps/keycloak-server/package.json
+  detection_source: js/apps/keycloak-server/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-09-26 13:55:24.000000000 Z
+- name: "@rollup/plugin-node-resolve"
+  description: Locate and bundle third-party dependencies in node_modules
+  package_url: https://www.npmjs.com/@rollup/plugin-node-resolve
+  version: 7.1.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17836/default_abcc2eea82e62d338a749f334647866df76198b8.png
+  detection_source_url: themes/src/main/resources/theme/keycloak.v2/account/src/package-lock.json
+  detection_source: js/libs/keycloak-js/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-10-17 10:01:28.000000000 Z
+- name: "@testing-library/jest-dom"
+  description: Custom jest matchers to test the state of the DOM
+  package_url: https://www.npmjs.com/@testing-library/jest-dom
+  version: 6.1.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17424/default_1cdcda15ebb7caed879f8340bc212b44c4ec9dac.png
+  detection_source_url: js/apps/admin-ui/package.json
+  detection_source: js/apps/admin-ui/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-10-19 09:08:09.000000000 Z
+- name: "@testing-library/react"
+  description: Simple and complete React DOM testing utilities that encourage good
+    testing practices
+  package_url: https://www.npmjs.com/@testing-library/react
+  version: 14.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16549/default_d522554c6a41cb28d922d6d3ad32ad4afa0e3bb5.png
+  detection_source_url: js/apps/admin-ui/package.json
+  detection_source: js/apps/admin-ui/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-10-19 09:08:09.000000000 Z
+- name: "@types/chai"
+  description: TypeScript definitions for chai
+  package_url: https://www.npmjs.com/@types/chai
+  version: 4.3.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15922/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: js/libs/keycloak-admin-client/package.json
+  detection_source: js/libs/keycloak-admin-client/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-10-19 09:44:08.000000000 Z
+- name: "@types/lodash-es"
+  description: TypeScript definitions for lodash-es
+  package_url: https://www.npmjs.com/@types/lodash-es
+  version: 4.17.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17516/default_911633508f32a5d5016c37ab38144cd661ceb682.png
+  detection_source_url: js/apps/account-ui/package.json
+  detection_source: js/libs/keycloak-admin-client/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-10-19 09:08:09.000000000 Z
+- name: "@types/mocha"
+  description: TypeScript definitions for mocha
+  package_url: https://www.npmjs.com/@types/mocha
+  version: 10.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15893/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: js/libs/keycloak-admin-client/package.json
+  detection_source: js/libs/keycloak-admin-client/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-10-19 09:44:08.000000000 Z
+- name: "@types/node"
+  description: TypeScript definitions for Node.js
+  package_url: https://www.npmjs.com/@types/node
+  version: 18.0.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: themes/src/main/resources/theme/keycloak.v2/account/src/package-lock.json
+  detection_source: themes/src/main/resources/theme/keycloak.v2/account/src/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-10-19 09:44:08.000000000 Z
+- name: "@types/react"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react
+  version: 16.14.28
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15894/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: themes/src/main/resources/theme/keycloak.v2/account/src/package-lock.json
+  detection_source: themes/src/main/resources/theme/keycloak.v2/account/src/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-10-19 09:08:09.000000000 Z
+- name: "@types/react-dom"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react-dom
+  version: 16.9.16
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15946/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: themes/src/main/resources/theme/keycloak.v2/account/src/package-lock.json
+  detection_source: themes/src/main/resources/theme/keycloak.v2/account/src/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-10-19 09:08:09.000000000 Z
+- name: "@types/react-router-dom"
+  description: TypeScript definitions for React Router
+  package_url: https://www.npmjs.com/@types/react-router-dom
+  version: 4.3.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16557/default_d522554c6a41cb28d922d6d3ad32ad4afa0e3bb5.png
+  detection_source_url: themes/src/main/resources/theme/keycloak.v2/account/src/package-lock.json
+  detection_source: themes/src/main/resources/theme/keycloak.v2/account/src/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-07-26 13:47:07.000000000 Z
+- name: "@types/uuid"
+  description: TypeScript definitions for uuid
+  package_url: https://www.npmjs.com/@types/uuid
+  version: 9.0.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16257/default_ab17554b7e80af3d234b14168ed61e75d43f8eee.png
+  detection_source_url: js/apps/admin-ui/package.json
+  detection_source: js/apps/admin-ui/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-10-19 09:08:09.000000000 Z
+- name: "@typescript-eslint/eslint-plugin"
+  description: TypeScript plugin for ESLint
+  package_url: https://www.npmjs.com/@typescript-eslint/eslint-plugin
+  version: 5.31.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15982/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: themes/src/main/resources/theme/keycloak.v2/account/src/package-lock.json
+  detection_source: themes/src/main/resources/theme/keycloak.v2/account/src/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-10-19 09:44:08.000000000 Z
+- name: "@typescript-eslint/parser"
+  description: An ESLint custom parser which leverages TypeScript ESTree
+  package_url: https://www.npmjs.com/@typescript-eslint/parser
+  version: 5.30.7
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15980/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
+  detection_source_url: themes/src/main/resources/theme/keycloak.v2/account/src/package-lock.json
+  detection_source: themes/src/main/resources/theme/keycloak.v2/account/src/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-10-19 09:44:08.000000000 Z
+- name: base64-js
+  description: Base64 encoding/decoding in pure JS
+  package_url: https://www.npmjs.com/base64-js
+  version: 1.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17396/default_2cd7ed1c123f2fca074a6f4b16c4e73d5bfe82be.png
+  detection_source_url: examples/cordova-native/package-lock.json
+  detection_source: js/libs/keycloak-js/package.json
+  last_updated_by: Jon Koops
+  last_updated_on: 2023-03-03 12:56:53.000000000 Z
+- name: chokidar
+  description: A neat wrapper around node.js fs.watch / fs.watchFile / fsevents
+  package_url: https://www.npmjs.com/chokidar
+  version: 3.5.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16043/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
+  detection_source_url: themes/src/main/resources/theme/keycloak.v2/account/src/package-lock.json
+  detection_source: themes/src/main/resources/theme/keycloak.v2/account/src/package.json
+  last_updated_by: Tyler Andor
+  last_updated_on: 2022-04-06 11:00:38.000000000 Z
+- name: es6-promise
+  description: A lightweight library that provides tools for organizing asynchronous
+    code
+  package_url: https://www.npmjs.com/es6-promise
+  version: 4.2.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16051/default_924b66c04aa848a4028c1a5753a23dae0f835f86.png
+  detection_source_url: js/libs/keycloak-js/package.json
+  detection_source: js/libs/keycloak-js/package.json
+  last_updated_by: Jon Koops
+  last_updated_on: 2023-03-03 12:56:53.000000000 Z
+- name: eslint-config-prettier
+  description: Turns off all rules that are unnecessary or might conflict with Prettier
+  package_url: https://www.npmjs.com/eslint-config-prettier
+  version: 9.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15879/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
+  detection_source_url: js/package.json
+  detection_source: js/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-10-17 10:41:57.000000000 Z
+- name: eslint-config-react-app
+  description: ESLint configuration used by Create React App
+  package_url: https://www.npmjs.com/eslint-config-react-app
+  version: 7.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16088/default_c7b204838197013798409fa2b4dafce450edc7fb.png
+  detection_source_url: themes/src/main/resources/theme/keycloak.v2/account/src/package-lock.json
+  detection_source: themes/src/main/resources/theme/keycloak.v2/account/src/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-07-26 13:47:07.000000000 Z
+- name: eslint-import-resolver-typescript
+  description: TypeScript .ts .tsx module resolver for `eslint-plugin-import`
+  package_url: https://www.npmjs.com/eslint-import-resolver-typescript
+  version: 3.6.1
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18380/default_d0ba753d47207ad8f04b02befcab81c50f38718f.png
+  detection_source_url: js/package.json
+  detection_source: js/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-10-19 09:44:08.000000000 Z
+- name: eslint-plugin-cypress
+  description: An ESLint plugin for projects using Cypress
+  package_url: https://www.npmjs.com/eslint-plugin-cypress
+  version: 2.15.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18548/default_0998c3a5bd64540d478b8f189bd9d22c3c17b6a0.png
+  detection_source_url: js/package.json
+  detection_source: js/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-10-17 10:41:57.000000000 Z
+- name: eslint-plugin-import
+  description: Import with sanity
+  package_url: https://www.npmjs.com/eslint-plugin-import
+  version: 2.26.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15806/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
+  detection_source_url: themes/src/main/resources/theme/keycloak.v2/account/src/package-lock.json
+  detection_source: js/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-10-17 10:41:57.000000000 Z
+- name: eslint-plugin-jsx-a11y
+  description: Static AST checker for accessibility rules on JSX elements
+  package_url: https://www.npmjs.com/eslint-plugin-jsx-a11y
+  version: 6.6.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15845/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: themes/src/main/resources/theme/keycloak.v2/account/src/package-lock.json
+  detection_source: themes/src/main/resources/theme/keycloak.v2/account/src/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-07-26 13:47:07.000000000 Z
+- name: eslint-plugin-lodash
+  description: Lodash specific linting rules for ESLint
+  package_url: https://www.npmjs.com/eslint-plugin-lodash
+  version: 7.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17604/default_98adc81594c50d81f495d8c0ddd357e31c4f0a3e.png
+  detection_source_url: js/package.json
+  detection_source: js/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-10-17 10:41:57.000000000 Z
+- name: eslint-plugin-mocha
+  description: Eslint rules for mocha
+  package_url: https://www.npmjs.com/eslint-plugin-mocha
+  version: 10.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16194/default_fef27d1523ac1844fc00e83e47bddd8898ff8a89.png
+  detection_source_url: js/package.json
+  detection_source: js/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-10-17 10:41:57.000000000 Z
+- name: eslint-plugin-prettier
+  description: Runs prettier as an eslint rule
+  package_url: https://www.npmjs.com/eslint-plugin-prettier
+  version: 5.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15896/default_6e6e1d6bb189c8bb26c6410618bd597979578f39.png
+  detection_source_url: js/package.json
+  detection_source: js/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-10-17 10:41:57.000000000 Z
+- name: eslint-plugin-react
+  description: React specific linting rules for ESLint
+  package_url: https://www.npmjs.com/eslint-plugin-react
+  version: 7.30.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15817/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: themes/src/main/resources/theme/keycloak.v2/account/src/package-lock.json
+  detection_source: themes/src/main/resources/theme/keycloak.v2/account/src/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-10-17 10:41:57.000000000 Z
+- name: eslint-plugin-react-hooks
+  description: ESLint rules for React Hooks
+  package_url: https://www.npmjs.com/eslint-plugin-react-hooks
+  version: 4.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16149/default_1f3a2fc7d882e29a43394ecdf491b8989ea3f0fa.png
+  detection_source_url: themes/src/main/resources/theme/keycloak.v2/account/src/package-lock.json
+  detection_source: js/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-10-17 10:41:57.000000000 Z
+- name: file-saver
+  description: An HTML5 saveAs
+  package_url: https://www.npmjs.com/file-saver
+  version: 2.0.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16795/default_6e51a44775c61dcb2888547ad406a2f0cf2c344e.png
+  detection_source_url: js/apps/admin-ui/package.json
+  detection_source: js/apps/admin-ui/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-10-19 07:29:45.000000000 Z
+- name: flat
+  description: Take a nested Javascript object and flatten it
+  package_url: https://www.npmjs.com/flat
+  version: 6.0.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17025/default_88e2e076a71afdc1de87ad42c80c1606f2689af1.png
+  detection_source_url: js/apps/admin-ui/package.json
+  detection_source: js/apps/admin-ui/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-09-20 08:10:58.000000000 Z
+- name: jwt-decode
+  description: Decode JWT tokens, mostly useful for browser applications
+  package_url: https://www.npmjs.com/jwt-decode
+  version: 3.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17395/default_2cd7ed1c123f2fca074a6f4b16c4e73d5bfe82be.png
+  detection_source_url: js/libs/keycloak-js/package.json
+  detection_source: js/libs/keycloak-js/package.json
+  last_updated_by: Abhishek Govula
+  last_updated_on: 2023-07-27 15:07:01.000000000 Z
+- name: lodash-es
+  description: Lodash exported as ES modules
+  package_url: https://www.npmjs.com/lodash-es
+  version: 4.17.21
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16587/default_ebd83b4f0415be108d977ea72558b13fd7c5283d.png
+  detection_source_url: js/apps/account-ui/package.json
+  detection_source: js/libs/keycloak-admin-client/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-10-19 09:07:00.000000000 Z
+- name: monaco-editor
+  description: A browser based code editor
+  package_url: https://www.npmjs.com/monaco-editor
+  version: 0.44.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18275/default_04867aeead13d19d0c97d0c649f8b38985a43aba.png
+  detection_source_url: js/apps/admin-ui/package.json
+  detection_source: js/apps/admin-ui/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-10-08 15:01:55.000000000 Z
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  version: 16.13.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: themes/src/main/resources/theme/keycloak.v2/account/src/package-lock.json
+  detection_source: themes/src/main/resources/theme/keycloak.v2/account/src/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-10-19 09:08:09.000000000 Z
+- name: react-dropzone
+  description: Simple HTML5 drag-drop zone with React.js
+  package_url: https://www.npmjs.com/react-dropzone
+  version: 9.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16979/default_665377899254fe85c1cf6bf7f15e24c4180a76ac.png
+  detection_source_url: themes/src/main/resources/theme/keycloak.v2/account/src/package-lock.json
+  detection_source: js/apps/admin-ui/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-10-19 09:08:09.000000000 Z
+- name: react-i18next
+  description: Internationalization for react done right
+  package_url: https://www.npmjs.com/react-i18next
+  version: 13.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17777/default_65e03f67ad735337587d736d5fbc87b538eccdf7.png
+  detection_source_url: js/apps/account-ui/package.json
+  detection_source: js/apps/admin-ui/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-10-19 09:08:09.000000000 Z
+- name: react-router-dom
+  description: DOM bindings for React Router
+  package_url: https://www.npmjs.com/react-router-dom
+  version: 4.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16025/default_e25d1fbb04a118c79fb444294461417342bd03bf.png
+  detection_source_url: themes/src/main/resources/theme/keycloak.v2/account/src/package-lock.json
+  detection_source: themes/src/main/resources/theme/keycloak.v2/account/src/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-10-19 09:08:09.000000000 Z
+- name: rollup-plugin-peer-deps-external
+  description: Rollup plugin to automatically add a library's peerDependencies to
+    its bundle's external config
+  package_url: https://www.npmjs.com/rollup-plugin-peer-deps-external
+  version: 2.2.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16508/default_0a704f5fac0bffcf529c9a61658d0b9ddbf7504e.png
+  detection_source_url: js/libs/keycloak-masthead/package.json
+  detection_source: js/libs/ui-shared/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-10-08 12:35:16.000000000 Z
+- name: rollup-plugin-postcss
+  description: Seamless integration between Rollup and PostCSS
+  package_url: https://www.npmjs.com/rollup-plugin-postcss
+  version: 2.9.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16135/default_def3edb85d7fbd20200a5cd7d0a1679e31bc8b3d.png
+  detection_source_url: themes/src/main/resources/theme/keycloak.v2/account/src/package-lock.json
+  detection_source: themes/src/main/resources/theme/keycloak.v2/account/src/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-07-26 13:47:07.000000000 Z
+- name: shx
+  description: Portable Shell Commands for Node
+  package_url: https://www.npmjs.com/shx
+  version: 0.3.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16496/default_55f3303d620c93eecbee69c43373d484f2be492f.png
+  detection_source_url: themes/src/main/resources/theme/keycloak.v2/account/src/package-lock.json
+  detection_source: themes/src/main/resources/theme/keycloak.v2/account/src/package.json
+  last_updated_by: Stan Silvert
+  last_updated_on: 2017-09-18 19:32:43.000000000 Z
+- name: tar-fs
+  description: Filesystem bindings for tar-stream
+  package_url: https://www.npmjs.com/tar-fs
+  version: 3.0.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17431/default_f52a9ea80d1a46080182faf142d844b81ca11aa6.png
+  detection_source_url: js/apps/keycloak-server/package.json
+  detection_source: js/apps/keycloak-server/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-10-19 09:07:26.000000000 Z
+- name: ts-node
+  description: TypeScript execution environment and REPL for node.js
+  package_url: https://www.npmjs.com/ts-node
+  version: 10.9.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15830/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: js/apps/admin-ui/package.json
+  detection_source: js/libs/keycloak-admin-client/package.json
+  last_updated_by: Jon Koops
+  last_updated_on: 2022-08-25 09:03:07.000000000 Z
+- name: tslib
+  description: Runtime library for TypeScript helper functions
+  package_url: https://www.npmjs.com/tslib
+  version: 2.4.0
+  license: 0BSD
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15853/default_97d4687bd07ff1bb963fd566c84e7cbf7c73bbee.png
+  detection_source_url: themes/src/main/resources/theme/keycloak.v2/account/src/package-lock.json
+  detection_source: js/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-08-21 10:03:48.000000000 Z
+- name: url-join
+  description: Join urls and normalize as in path.join
+  package_url: https://www.npmjs.com/url-join
+  version: 5.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16865/default_7fe969828600a90e84607bfa2a19979e53a0579d.png
+  detection_source_url: js/libs/keycloak-admin-client/package.json
+  detection_source: js/libs/keycloak-admin-client/package.json
+  last_updated_by: Jon Koops
+  last_updated_on: 2023-02-03 10:45:11.000000000 Z
+- name: uuid
+  description: RFC4122
+  package_url: https://www.npmjs.com/uuid
+  version: 7.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15916/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: examples/cordova-native/package-lock.json
+  detection_source: js/apps/admin-ui/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-10-19 07:26:16.000000000 Z
+- name: com.oracle.database.jdbc:ojdbc11
+  description: Oracle JDBC Driver compatible with JDK11
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source: testsuite/utils/pom.xml
+  last_updated_by: Martin Bartoš
+  last_updated_on: 2023-09-08 15:51:22.000000000 Z
